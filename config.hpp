@@ -1,4 +1,4 @@
 #pragma once
 struct Config {
-  static const int kMax = 128; // declaration + definition
+  inline static const int kMax = 128; // добавив inline можно определить переменную прямо в hpp
 };
